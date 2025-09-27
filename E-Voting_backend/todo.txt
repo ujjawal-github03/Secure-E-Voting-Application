@@ -1,0 +1,2 @@
+make mongo db atlas - done
+cors me eb ka url dalna
