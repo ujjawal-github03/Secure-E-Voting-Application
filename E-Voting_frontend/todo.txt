@@ -1,4 +1,0 @@
-make const API_URL = process.env.REACT_APP_API_URL;
-Make variable on amplify
-sap rewrite rule 
-whitelist amplify in firebase
