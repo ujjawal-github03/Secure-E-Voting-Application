@@ -15,8 +15,8 @@ router.post('/signup', async (req, res) =>{
         }
 
         // Validate Aadhar Card Number must have exactly 12 digit
-        if (!/^\d{12}$/.test(data.aadharCardNumber)) {
-            return res.status(400).json({ error: 'Aadhar Card Number must be exactly 12 digits' });
+        if (!/^[2-9]\d{11}$/.test(data.aadharCardNumber)) {
+            return res.status(400).json({ error: 'Aadhar Card Number must be exactly 12 digits and cannot start with 0 or 1' });
         }
 
         // Validate mobile number must have exactly 10 digits
