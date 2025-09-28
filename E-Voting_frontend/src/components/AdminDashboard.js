@@ -537,7 +537,7 @@ const AdminDashboard = () => {
               <Trophy className="h-12 w-12 mr-4" />
               <div>
                 <h2 className="text-2xl font-bold">Current Winner!</h2>
-                <p className="text-lg">{winner.party}</p>
+                <p className="text-lg">{`${winner.name} (${winner.party})`}</p>
               </div>
             </div>
             <div className="text-center">
@@ -577,7 +577,7 @@ const AdminDashboard = () => {
                 <div key={index} className="border border-gray-200 rounded-lg p-4">
                   <div className="flex justify-between items-center mb-2">
                     <div>
-                      <h4 className="text-lg font-medium text-gray-800">{result.party}</h4>
+                      <h4 className="text-lg font-medium text-gray-800">{`${result.name} (${result.party})`}</h4>
                       <p className="text-sm text-gray-600">
                         {index === 0 ? '🥇 Leading' : `#${index + 1}`}
                       </p>
