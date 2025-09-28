@@ -332,6 +332,11 @@ const UserDashboard = () => {
         return;
       }
 
+      if (passwordData.newPassword === passwordData.currentPassword) {
+        alert('New password cannot be the same as the current password');
+        return;
+      }
+
       setPasswordLoading(true);
       try {
         const response = await fetch(`${API_URL}/user/profile/password`, {
