@@ -14,6 +14,10 @@ app.use(cors({
   credentials: true
 }));
 
+app.get("/", (req, res) => {
+  res.send("Backend is running ");
+});
+
 
 // Import the router files
 const userRoutes = require('./routes/userRoutes');
