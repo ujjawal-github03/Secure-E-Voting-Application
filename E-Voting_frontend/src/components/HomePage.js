@@ -88,7 +88,7 @@ const HomePage = () => {
 
 const Footer = () => (
   <footer className="bg-white backdrop-blur-sm mt-auto shadow-md ">
-    <div className="max-w-2xl mx-auto px-6 lg:px-4 py-2">
+    <div className="max-w-7xl mx-auto px-6 lg:px-4 py-2">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4">
         
         {/* Branding */}
