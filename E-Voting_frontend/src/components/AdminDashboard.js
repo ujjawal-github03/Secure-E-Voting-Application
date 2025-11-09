@@ -126,7 +126,7 @@ const AdminDashboard = () => {
 
     setLoading(true);
     try {
-      const response = await fetch(`${API_URL}/review/statistics`, {
+      const response = await fetch('/review/statistics', {
         headers: {
           Authorization: `Bearer ${getToken()}`,
         },
@@ -154,7 +154,7 @@ const AdminDashboard = () => {
 
     setLoading(true);
     try {
-      let url = `${API_URL}/review/all`;
+      let url = '/review/all';
       if (sentiment !== "all") {
         url = `/review/by-sentiment/${sentiment}`;
       }
