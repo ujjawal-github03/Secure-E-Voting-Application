@@ -86,5 +86,4 @@ const ReviewModal = ({ isOpen, onClose, onSubmit, candidateName }) => {
     </div>
   );
 };
-
 export default ReviewModal;
