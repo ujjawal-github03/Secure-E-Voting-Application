@@ -821,7 +821,7 @@ const HomePage = () => {
             </div>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
               Secure, transparent, and efficient online voting platform with
-              advanced OTP verification and Aadhar-based authentication
+              advanced OTP verification and Aadhar-based authentication.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
